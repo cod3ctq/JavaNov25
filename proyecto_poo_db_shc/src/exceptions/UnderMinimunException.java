@@ -1,0 +1,9 @@
+package exceptions;
+
+public class UnderMinimunException extends RuntimeException {
+    public UnderMinimunException(String message) {
+        super(message);
+
+    }
+
+    }
